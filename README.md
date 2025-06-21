@@ -23,19 +23,4 @@
 2. Gradle 동기화
 3. 에뮬레이터 또는 실제 기기에서 실행
 
-## 프로젝트 구조
 
-
-├── MainActivity.kt          # 메인 액티비티
-├── LoginActivity.kt         # 로그인 화면
-├── RegisterActivity.kt      # 회원가입 화면
-├── AlarmActivity.kt         # 알람 설정
-├── ScheduleTab.kt           # 스케줄 탭
-├── RecommendTab.kt          # 추천 탭
-├── StatsTab.kt              # 통계 탭
-
-```
-
-## 라이선스
-
-이 프로젝트는 개인 학습 목적으로 제작되었습니다. 
