@@ -1,0 +1,42 @@
+# AppTeck Project
+
+안드로이드 앱 추천 및 스케줄 관리 애플리케이션
+
+## 기능
+
+- **앱 추천**: 다양한 수익형 앱 추천
+- **스케줄 관리**: 앱 사용 스케줄 설정 및 관리
+- **알람 기능**: 스케줄에 따른 알람 설정
+- **통계**: 사용 통계 및 수익 분석
+- **사용자 관리**: 로그인/회원가입 기능
+
+## 기술 스택
+
+- **언어**: Kotlin
+- **플랫폼**: Android
+- **데이터베이스**: SQLite
+- **빌드 도구**: Gradle
+
+## 설치 및 실행
+
+1. Android Studio에서 프로젝트 열기
+2. Gradle 동기화
+3. 에뮬레이터 또는 실제 기기에서 실행
+
+## 프로젝트 구조
+
+```
+app/src/main/java/com/example/appteckproject/
+├── MainActivity.kt          # 메인 액티비티
+├── LoginActivity.kt         # 로그인 화면
+├── RegisterActivity.kt      # 회원가입 화면
+├── AlarmActivity.kt         # 알람 설정
+├── ScheduleTab.kt           # 스케줄 탭
+├── RecommendTab.kt          # 추천 탭
+├── StatsTab.kt              # 통계 탭
+└── ...
+```
+
+## 라이선스
+
+이 프로젝트는 개인 학습 목적으로 제작되었습니다. 
