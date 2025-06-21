@@ -1,6 +1,6 @@
 # AppTeck Project
 
-안드로이드 앱 추천 및 스케줄 관리 애플리케이션
+앱테크 앱 추천 및 스케줄 관리 애플리케이션
 
 ## 기능
 
@@ -25,8 +25,7 @@
 
 ## 프로젝트 구조
 
-```
-app/src/main/java/com/example/appteckproject/
+
 ├── MainActivity.kt          # 메인 액티비티
 ├── LoginActivity.kt         # 로그인 화면
 ├── RegisterActivity.kt      # 회원가입 화면
@@ -34,7 +33,7 @@ app/src/main/java/com/example/appteckproject/
 ├── ScheduleTab.kt           # 스케줄 탭
 ├── RecommendTab.kt          # 추천 탭
 ├── StatsTab.kt              # 통계 탭
-└── ...
+
 ```
 
 ## 라이선스
