@@ -17,6 +17,7 @@ class RegisterActivity : Activity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_register)
 
+
         dbHelper = UserDBHelper(this)
         val etId = findViewById<EditText>(R.id.etId)
         val etPassword = findViewById<EditText>(R.id.etPassword)

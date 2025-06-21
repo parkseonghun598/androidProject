@@ -17,6 +17,7 @@ class AlarmReceiver : BroadcastReceiver() {
         serviceIntent.putExtra("volume", intent.getIntExtra("volume", 100))
         context.startForegroundService(serviceIntent)
 
+
         // 알람 제목 전달
         val scheduleName = intent.getStringExtra("schedule_name") ?: "일정"
         val activityIntent = Intent(context, AlarmActivity::class.java)

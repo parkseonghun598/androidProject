@@ -13,7 +13,16 @@ class ScheduleRepository(context: Context) {
         val daysStr = schedule.days.joinToString(",")
         db.execSQL(
             "INSERT INTO schedules (name, hour, minute, days, reward, rewardStreak, alarmOn, volume) VALUES (?, ?, ?, ?, ?, ?, ?, ?)",
-            arrayOf(schedule.name, schedule.hour, schedule.minute, daysStr, schedule.reward, schedule.rewardStreak, if (schedule.alarmOn) 1 else 0, schedule.volume)
+            arrayOf(
+                schedule.name,
+                schedule.hour,
+                schedule.minute,
+                daysStr,
+                schedule.reward,
+                schedule.rewardStreak,
+                if (schedule.alarmOn) 1 else 0,
+                schedule.volume
+            )
         )
         db.close()
     }

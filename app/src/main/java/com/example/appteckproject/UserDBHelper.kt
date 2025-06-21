@@ -15,6 +15,7 @@ class UserDBHelper(context: Context) : SQLiteOpenHelper(context, DB_NAME, null, 
         onCreate(db)
     }
 
+
     companion object {
         const val DB_NAME = "UserDB.db"
         const val DB_VERSION = 2

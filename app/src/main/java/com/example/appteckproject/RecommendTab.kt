@@ -12,6 +12,7 @@ fun Activity.showRecommendTab(apps: List<String>) {
 
     val recommendList = recommendView.findViewById<LinearLayout>(R.id.recyclerRecommend)
 
+
     // 앱 리스트 랜덤 셔플 후 3개 선택
     val shuffled = apps.toMutableList()
     Collections.shuffle(shuffled)

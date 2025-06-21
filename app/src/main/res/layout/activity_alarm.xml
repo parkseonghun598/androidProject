@@ -17,6 +17,7 @@
         android:textColor="#333333"
         android:layout_marginBottom="32dp"/>
 
+
     <Button
         android:id="@+id/btnStopAlarm"
         android:layout_width="wrap_content"

@@ -4,6 +4,7 @@ import android.content.Context
 import android.database.sqlite.SQLiteDatabase
 import android.database.sqlite.SQLiteOpenHelper
 
+
 class ScheduleDBHelper(context: Context) : SQLiteOpenHelper(context, "ScheduleDB.db", null, 2) {
     override fun onCreate(db: SQLiteDatabase) {
         db.execSQL("""

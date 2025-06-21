@@ -15,6 +15,7 @@
         android:layout_gravity="center_vertical"
         android:contentDescription="앱 아이콘" />
 
+
     <TextView
         android:id="@+id/appName"
         android:layout_width="wrap_content"

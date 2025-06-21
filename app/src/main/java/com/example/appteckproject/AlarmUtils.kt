@@ -30,6 +30,7 @@ fun Activity.setAlarm(schedule: MainActivity.Schedule) {
         }
     }
 
+
     val alarmManager = getSystemService(Context.ALARM_SERVICE) as AlarmManager
     val intent = Intent(this, AlarmReceiver::class.java).apply {
         putExtra("schedule_name", schedule.name)

@@ -124,6 +124,7 @@ fun Activity.showStatsTab(
                 setTextColor(Color.WHITE)
             }
         }
+
         val params = GridLayout.LayoutParams().apply {
             width = 0
             height = LinearLayout.LayoutParams.WRAP_CONTENT

@@ -170,7 +170,8 @@ class MainActivity : Activity() {
         val recommendView = inflater.inflate(R.layout.activity_recommend, null, false)
         val recyclerView = recommendView.findViewById<LinearLayout>(R.id.recyclerRecommend)
         recyclerView.removeAllViews()
-    
+
+
         // 랜덤 아이콘 리스트 (안드로이드 기본 제공 아이콘)
         val defaultIcons = listOf(
             android.R.drawable.ic_dialog_info,

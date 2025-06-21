@@ -23,6 +23,7 @@ fun Activity.showScheduleTab(
     val scheduleListLayout = scheduleView.findViewById<LinearLayout>(R.id.scheduleList)
     scheduleListLayout.removeAllViews()
 
+
     // 오늘 기준 -3~+3일 날짜/요일 버튼 동적 생성
     dateSelector.removeAllViews()
     val today = Calendar.getInstance()

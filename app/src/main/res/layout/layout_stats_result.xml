@@ -11,6 +11,7 @@
         android:orientation="vertical"
         android:gravity="center_horizontal">
 
+
         <!-- 출석 통계 -->
         <TextView
             android:id="@+id/tvAttendanceTitle"
